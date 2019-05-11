@@ -49,7 +49,7 @@ Things you may want to cover:
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| body | text | null: false |
+| body | text |  |
 | img | string |  |
 | group | refarences | foreign_key: true |
 | user | refarences | foreign_key: true |
