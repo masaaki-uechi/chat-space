@@ -32,7 +32,16 @@ Things you may want to cover:
 
 ## ユーザーテーブル
 
+| カラム | タイプ | オプション |
+| --- | --- | --- |
+| name | string |  |
+| email | sstring |  |
+
 ## メッセージテーブル
+
+| カラム | タイプ | オプション |
+| --- | --- | --- |
+| name | string |  |
 
 ## グループテーブル
 
