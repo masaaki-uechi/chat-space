@@ -35,7 +35,7 @@ Things you may want to cover:
 | カラム | タイプ | オプション |
 | --- | --- | --- |
 | name | string |  |
-| email | sstring |  |
+| email | string |  |
 
 ## メッセージテーブル
 
