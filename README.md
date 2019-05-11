@@ -35,12 +35,12 @@ Things you may want to cover:
 | カラム | タイプ | オプション |
 | --- | --- | --- |
 | name | string | index: true, null: false, unique: true |
-| email | string | null: false, unipue: true |
+
 
 アソシエーション
 
-  - has_many :groups, through::group_users
   - has_many :group_users
+  - has_many :groups, through::group_users
   - has_many :messages
 
 -----------------------------
@@ -69,8 +69,8 @@ Things you may want to cover:
 
 アソシエーション
 
-  - has_many :groups, through::group_users
   - has_many :group_users
+  - has_many :groups, through::group_users
   - has_many :messages
 
 -----------------------------
@@ -79,8 +79,8 @@ Things you may want to cover:
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| group | refarence | index: true, foreign_key: true, null: false |
-| user | refarence | index: true, foreign_key: true, null: false |
+| group | refarences | index: true, foreign_key: true, null: false |
+| user | refarences | index: true, foreign_key: true, null: false |
 
 アソシエーション
 
