@@ -43,11 +43,20 @@ Things you may want to cover:
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| name | string |  |
+| body | text |  |
+| img | string |  |
+| group | refarences |  |
+| user | refarences |  |
+
+
 
 -----------------------------
 
 グループテーブル
+
+| カラム | タイプ | オプション |
+| --- | --- | --- |
+| name | string |  |
 
 -----------------------------
 
