@@ -37,6 +37,7 @@ Things you may want to cover:
 | name | string |  |
 | email | string |  |
 
+===
 
 メッセージテーブル
 
@@ -44,8 +45,12 @@ Things you may want to cover:
 | --- | --- | --- |
 | name | string |  |
 
+===
 
 グループテーブル
 
+===
+
 グループユーザーテーブル
 
+===
