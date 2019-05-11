@@ -63,6 +63,12 @@ Things you may want to cover:
 | --- | --- | --- |
 | name | string |  |
 
+アソシエーション
+
+ -
+ -
+ -
+
 -----------------------------
 
 グループユーザーテーブル
@@ -71,5 +77,11 @@ Things you may want to cover:
 | --- | --- | --- |
 | group | refarence |  |
 | user | refarence |  |
+
+アソシエーション
+
+ -
+ -
+ -
 
 -----------------------------
