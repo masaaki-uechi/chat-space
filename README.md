@@ -56,9 +56,8 @@ Things you may want to cover:
 
 アソシエーション
 
-  - has_many :groups, through::group_users
-  - has_many :group_users
-  - has_many :messages
+  - belongs_to :user
+  - belongs_to :group
 
 -----------------------------
 
@@ -70,9 +69,10 @@ Things you may want to cover:
 
 アソシエーション
 
-  - belongs_to :user
-  - belongs_to :group
-
+  - has_many :groups, through::group_users
+  - has_many :group_users
+  - has_many :messages
+  
 -----------------------------
 
 グループユーザーテーブル
