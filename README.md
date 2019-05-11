@@ -34,8 +34,8 @@ Things you may want to cover:
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| name | string |  |
-| email | string |  |
+| name | string | index: true, null: false, unique: true |
+| email | string | null: false, unipue: true |
 
 アソシエーション
 
@@ -49,10 +49,10 @@ Things you may want to cover:
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| body | text |  |
+| body | text | null: false |
 | img | string |  |
-| group | refarences |  |
-| user | refarences |  |
+| group | refarences | foreign_key: true |
+| user | refarences | foreign_key: true |
 
 アソシエーション
 
@@ -65,22 +65,22 @@ Things you may want to cover:
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| name | string |  |
+| name | string | index: true, null: false, unipue: true |
 
 アソシエーション
 
   - has_many :groups, through::group_users
   - has_many :group_users
   - has_many :messages
-  
+
 -----------------------------
 
 グループユーザーテーブル
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
-| group | refarence |  |
-| user | refarence |  |
+| group | refarence | index: true, foreign_key: true, null: false |
+| user | refarence | index: true, foreign_key: true, null: false |
 
 アソシエーション
 
