@@ -31,7 +31,6 @@ Things you may want to cover:
 # DB設計
 
 ## ユーザーテーブル
-
 | カラム | タイプ | オプション |
 | --- | --- | --- |
 | name | string |  |
@@ -39,7 +38,6 @@ Things you may want to cover:
 
 
 ## メッセージテーブル
-
 | カラム | タイプ | オプション |
 | --- | --- | --- |
 | name | string |  |
