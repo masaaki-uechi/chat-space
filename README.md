@@ -62,4 +62,9 @@ Things you may want to cover:
 
 グループユーザーテーブル
 
+| カラム | タイプ | オプション |
+| --- | --- | --- |
+| group | refarence |  |
+| user | refarence |  |
+
 -----------------------------
