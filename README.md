@@ -37,11 +37,13 @@ Things you may want to cover:
 | name | string |  |
 | email | string |  |
 
+
 ## メッセージテーブル
 
 | カラム | タイプ | オプション |
 | --- | --- | --- |
 | name | string |  |
+
 
 ## グループテーブル
 
